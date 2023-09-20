@@ -1,0 +1,18 @@
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    input {
+        padding: 5px;
+        border: 1px solid $gray;
+        border-radius: 10px;
+        box-shadow: $ligt-gray 0px 0px 10px;
+        &:focus {
+            outline: none;
+            border:2px solid $primary !important;
+        }
+    }
+    .label {
+        font-weight: bold;
+    }
+}
