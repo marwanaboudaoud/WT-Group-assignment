@@ -9,10 +9,10 @@
         box-shadow: $ligt-gray 0px 0px 10px;
         &:focus {
             outline: none;
-            border:2px solid $primary !important;
+            border:2px solid $primary;
         }
     }
-    .label {
+    label {
         font-weight: bold;
     }
 }
